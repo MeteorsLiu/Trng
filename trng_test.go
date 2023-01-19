@@ -6,6 +6,6 @@ import (
 
 func TestTrng(t *testing.T) {
 	var a uint64
-	Uint64(&a)
+	rdrand(&a)
 	t.Log(a)
 }
