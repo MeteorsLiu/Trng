@@ -32,7 +32,7 @@ func New(retries ...int) rand.Source64 {
 	}
 }
 
-func Uint64(ptr *uint64)
+func rdrand(ptr *uint64)
 
 // rdrand dones't require seeding.
 // only for implement.
